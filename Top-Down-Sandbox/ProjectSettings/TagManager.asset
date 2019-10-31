@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pickable
   layers:
   - Default
   - TransparentFX
@@ -13,9 +14,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Player
+  - Weapon
+  - Pickable
   - 
   - 
   - 
@@ -41,15 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3262913621
-    locked: 0
-  - name: Middleground
-    uniqueID: 1511554007
+  - name: Pickable
+    uniqueID: 615258185
     locked: 0
   - name: Player
     uniqueID: 3047848343
     locked: 0
-  - name: Foreground
-    uniqueID: 622916131
+  - name: Weapon
+    uniqueID: 1176704915
     locked: 0
